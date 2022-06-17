@@ -1,0 +1,149 @@
+#googlepage {
+	margin-top:50px;
+	text-align: center;
+	}
+	
+.googlename {
+	display:flex;
+	font-family: Arial;
+	font-size: 80px;
+	padding-left:470px;
+	margin-bottom:-70px;}
+	
+	
+.googlename p:nth-child(1) {
+	color:#4285F4;}
+
+.googlename p:nth-child(2) {
+	color:#DB4437;}
+
+.googlename p:nth-child(3) {
+	color:#F4B400;}
+
+.googlename p:nth-child(4) {
+	color: #4285F4;}
+
+.googlename p:nth-child(5) {
+	color: #0F9D58;}
+
+.googlename p:nth-child(6) {
+	color: #DB4437;}
+	
+#searchbar {
+	font-size:20px;
+	border-radius: 30px;
+	border: 1px solid black;
+	z-index:1;
+	padding-left:40px;}
+	
+input:focus {
+	outline:none;}
+	
+	
+.icon {
+	color: gray;
+	margin-left:-650px;
+	z-index: 2;}
+	
+	
+nav { 
+	display:flex;
+	align-items:center;
+	}
+	
+.left-nav {
+	margin-left:10px;
+	padding:10px;
+	}
+.left-nav #about {
+	text-decoration:none;
+	color:black;
+	}
+
+.left-nav #store {
+	margin-left:5px;
+	text-decoration:none;
+	color:black;
+	}
+	
+.right-nav {
+	margin-left:820px;
+	padding:10px;
+	}
+	
+.right-nav #gmail {
+	text-decoration:none;
+	color:black;
+	}
+
+.right-nav #images {
+	margin-left:5px;
+	text-decoration:none;
+	color:black;
+	}
+	
+.menu {
+	border-radius:100px;
+	padding:10px;
+	margin-left:10px;
+	margin-right:;
+	color:gray;}
+	
+.menu:hover {
+	border-radius:100px;
+	background-color:#ededed;
+	padding:10px;}
+	
+nav img {
+	margin-left: 10px;
+	border-radius:100px;
+	padding:3px;}
+	
+nav img:hover {
+	padding:3px;
+	background-color:#ededed;}
+	
+.buttons {
+	text-align:center;
+	padding-top:20px;}
+	
+ button {
+	color:black;
+	font-weight:bold;
+	font-size:15px;}
+	
+ button:hover {
+	border: 1px solid gray;
+	border-radius: 20px;}
+	
+#about:hover, #store:hover, #gmail:hover, #images:hover {
+	text-decoration: underline;}
+	
+ .footer {
+	positon:fixed;
+	padding:50px;
+	margin-top:257px;
+	display:flex;
+	justify-content:space-evenly;
+	gap:50px;
+	background-color:#ededed;}
+	
+.leftitems {
+	display:flex;
+	margin-top:10px;
+	margin-bottom:-40px;
+	gap:20px;}
+
+.rightitems{
+	display:flex;
+	margin-top:10px;
+	margin-bottom:-40px;
+	gap:20px;}
+	
+.centeritem {
+	margin-right: 100px;
+	margin-bottom: 0px;
+	margin-top:-40px;}
+	
+.item:hover, .centeritem:hover {
+	text-decoration:underline;}
